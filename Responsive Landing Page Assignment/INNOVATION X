@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product/Service Showcase</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #e9ecef;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-headline {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #212529;
+        }
+
+        .hero-subheadline {
+            font-size: 1.2em;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+
+        .hero-cta {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero-cta:hover {
+            background-color: #0056b3;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 60px 20px;
+            background-color: #fff;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .feature-item {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .feature-icon {
+            font-size: 2em; /* Example icon size */
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .feature-title {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+            color: #343a40;
+        }
+
+        .feature-description {
+            color: #6c757d;
+        }
+
+        /* Footer Section */
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .footer-contact {
+            margin-bottom: 20px;
+        }
+
+        .footer-contact a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer-contact a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-copyright {
+            font-size: 0.9em;
+            color: #adb5bd;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .features-grid {
+                grid-template-columns: 1fr; /* Stack columns on smaller screens */
+            }
+
+            .feature-item {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-headline">Introducing InnovationX: The Future of Productivity</h1>
+            <p class="hero-subheadline">Unlock your team's full potential with our revolutionary collaboration platform.</p>
+            <a href="#" class="hero-cta">Sign Up Now</a>
+        </div>
+    </header>
+
+    <section class="features container">
+        <h2>Key Features</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon">⚙️</div> <h3 class="feature-title">Seamless Integration</h3>
+                <p class="feature-description">Connect with all your favorite tools and platforms for a unified workflow.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🚀</div> <h3 class="feature-title">Enhanced Collaboration</h3>
+                <p class="feature-description">Real-time co-editing and integrated communication to boost team synergy.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">📊</div> <h3 class="feature-title">Powerful Analytics</h3>
+                <p class="feature-description">Gain valuable insights into your team's performance with detailed reports and dashboards.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-contact">
+            <a href="mailto:info@example.com">info@haleemahMBdeveloper.com</a>
+            <span>|</span>
+            <a href="tel:+15551234567">+1 (234) 123-4567</a>
+            <span>|</span>
+            <a href="https://twitter.com/example">haleemahMBdeveloper@Twitter</a>
+            <a href="https://facebook.com/example">haleemahMBdeveloper@Facebook</a>
+        </div>
+        <p class="footer-copyright">&copy; 2025 InnovationX. All rights reserved, the images or write-ups on this website, can not be copied in part or in print.</p>
+    </footer>
+
+</body>
+</html>
